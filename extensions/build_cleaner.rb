@@ -1,3 +1,6 @@
+require 'middleman-autoprefixer'
+require 'middleman-deploy'
+
 class BuildCleaner < Middleman::Extension
   def initialize(app, options_hash = {}, &block)
     super
