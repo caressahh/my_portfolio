@@ -12,8 +12,12 @@
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
   %body
-  %h1
-    Carissa Edgren
-  %a.waves-effect.waves-light.btn Portfolio
-  = yield
-  = partial 'partials/footer'
+    %div.container
+      %h1
+        Carissa Edgren
+      %p Carissa@Edgren.nu
+      +46 761 969689
+      = yield
+      = partial 'partials/footer'
+      %script{:type=>"text/javascript", :src=>"https://code.jquery.com/jquery-2.1.1.min.js"}
+      %script{:type=>"text/javascript", :src=>"js/materialize.min.js"}

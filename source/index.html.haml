@@ -1,4 +1,9 @@
-.projects
+.projects.row
   - data.projects.each do |project|
-    %h4= project[:name]
-    %p= project[:description]
+    .col.s4.project-presentation
+      %h4
+        %a{:href=> "#{project[:link]}", :target=>"_blank"}
+          = project[:name]
+      %p= project[:description]
+      %a{:href=> "#{project[:gitlink]}", :target=>"_blank"}
+        GitHub Link

@@ -1,5 +1,23 @@
-- name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse
+- name: Slow Food Sinatra
+  description: An online ordering page, with login, for a small restaurant
+  gitlink: https://github.com/CraftAcademy/slow_food_sinatra_june2017
+  link: https://slowfood-craftacademy-july2017.herokuapp.com/
 
-- name: FizzBuzz
-  description: My first Test driven ruby project
+- name: Library Challenge
+  description: A steaming pile of garbage
+  gitlink: https://github.com/caressahh/library-challenge
+
+
+- name: FizzBuzz Game
+  description: My first test driven JavaScript project
+  link: https://caressahh.github.io/fizz_buzz_js/
+  gitlink: https://github.com/caressahh/fizz_buzz_js
+
+- name: BMI Challenge
+  description: A BMI calculator in JavaScript and HTML with basic CSS
+  link: https://caressahh.github.io/BMI_Challenge/
+  gitlink: https://github.com/caressahh/BMI_Challenge
+
+- name: ATM Challenge
+  description: Ruby project to simulate an ATM machine
+  gitlink: https://github.com/caressahh/atm_challenge
