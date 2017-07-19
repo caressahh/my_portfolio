@@ -1,10 +1,13 @@
 .projects.row
   - data.projects.each do |project|
-    .col.s4.project-presentation
-      %h4
+    .col.s12.m6.l4.project-presentation
+
+      - if project[:link]
         %a{:href=> "#{project[:link]}", :target=>"_blank"}
-          = project[:name]
-      %img.project-image{:src=>"images/#{project[:image]}"}
+          %img.project-image{:src=>"images/#{project[:image]}", :target=>"_blank"}
+      - else
+        %img.project-image{:src=>"images/#{project[:image]}", :target=>"_blank"}
       %p= project[:description]
       %a{:href=> "#{project[:gitlink]}", :target=>"_blank"}
+        .fa.fa-github
         GitHub Link

@@ -1,27 +1,22 @@
-- name: Slow Food Sinatra
-  description: An online ordering page, with login, for a small restaurant
+- description: An online ordering page, with login, for a small restaurant
   gitlink: https://github.com/CraftAcademy/slow_food_sinatra_june2017
   link: https://slowfood-craftacademy-july2017.herokuapp.com/
   image: GLUTTONYYYY.jpg
 
-- name: Library Challenge
-  description: A steaming pile of garbage
+- description: A steaming pile of garbage
   gitlink: https://github.com/caressahh/library-challenge
   image: LIBRARRRYYYY.jpg
 
-- name: FizzBuzz Game
-  description: My first test driven JavaScript project
+- description: My first test driven JavaScript project
   link: https://caressahh.github.io/fizz_buzz_js/
   gitlink: https://github.com/caressahh/fizz_buzz_js
   image: FIZZZZZZY.jpg
 
-- name: BMI Challenge
-  description: A BMI calculator in JavaScript and HTML with basic CSS
+- description: A BMI calculator in JavaScript and HTML with basic CSS
   link: https://caressahh.github.io/BMI_Challenge/
   gitlink: https://github.com/caressahh/BMI_Challenge
   image: BMIIIIII.jpg
 
-- name: ATM Challenge
-  description: Ruby project to simulate an ATM machine
+- description: Ruby project to simulate an ATM machine
   gitlink: https://github.com/caressahh/atm_challenge
   image:
