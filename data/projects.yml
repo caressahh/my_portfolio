@@ -1,23 +1,32 @@
-- description: An online, menu, ordering system, with login, for a small restaurant
-  info: Tools used:Sinatra as web framework, Foundation6 as CSS framework; PostgreSQL for database,Warden for user authentication, Cucumber for acceptance tests, RSpec for unit tests.
+- project: Slow Food
+  description: An online menu and ordering system.
+  techniques: TOOLS USED:Sinatra, Foundation6, CSS, PostgreSQL, Warden, Cucumber, RSpec, Heroku.
   gitlink: https://github.com/CraftAcademy/slow_food_sinatra_june2017
   link: https://slowfood-craftacademy-july2017.herokuapp.com/
-  image: GLUTTONYYYY.jpg
+  image: sloefood.jpg
 
-- description: A steaming pile of garbage
+- project: Library Challenge
+  description: A library program that works in IRB.
+  techniques: TOOLS USED:Ruby, RSPEC.
   gitlink: https://github.com/caressahh/library-challenge
   image: LIBRARRRYYYY.jpg
 
-- description: My first test driven JavaScript project
+- project: FIZzBUZZ
+  description: A functioning FIZZBUZZ game. Atest driven JS project.
+  techniques: TOOLS USED:JavaScript, HTML, CSS, GHpages.
   link: https://caressahh.github.io/fizz_buzz_js/
   gitlink: https://github.com/caressahh/fizz_buzz_js
-  image: FIZZZZZZY.jpg
+  image: fizzbuzznew.jpg
 
-- description: A BMI calculator in JavaScript and HTML with basic CSS
+- project: BMI Challenge
+  description: A body-mass-index calculator in both metric and imperial.
+  techniques: TOOLS USED:Ruby, HTML,CSS, GHpages.
   link: https://caressahh.github.io/BMI_Challenge/
   gitlink: https://github.com/caressahh/BMI_Challenge
-  image: BMIIIIII.jpg
+  image: bminew.jpg
 
-- description: Ruby project to simulate an ATM machine
+- project: ATM Challenge
+  description: Ruby project to simulate an ATM machine
+  techniques: TOOLS USED:Ruby, RSPEC
   gitlink: https://github.com/caressahh/atm_challenge
-  image: ATM.jpg
+  image: atmnew.jpg

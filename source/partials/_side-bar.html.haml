@@ -17,7 +17,12 @@
                 %img{:src=>"images/#{project[:image]}", :target=>"_blank"}
 
             .project-text
+              %b
+                = project[:project]
+              %br
               = project[:description]
+              %br
+              = project[:techniques]
 
             .project-link
               - if project[:link]
