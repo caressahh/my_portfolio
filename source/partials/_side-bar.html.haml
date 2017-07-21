@@ -1,0 +1,30 @@
+%ul#slide-out.side-nav.fixed
+  %li
+    %h3
+      Projects
+  .projects
+    - data.projects.each do |project|
+      %li
+        .card-panel.hoverable
+          .project-presentation
+
+            - if project[:link]
+              .project-image
+                %a{:href=> "#{project[:link]}", :target=>"_blank"}
+                  %img{:src=>"images/#{project[:image]}", :target=>"_blank"}
+            - else
+              .project-image
+                %img{:src=>"images/#{project[:image]}", :target=>"_blank"}
+
+            .project-text
+              = project[:description]
+
+            .project-link
+              - if project[:link]
+                %a{:href=> "#{project[:link]}", :target=>"_blank"}
+                  %i.fa.fa-link
+                  Check it out
+                  %br
+              %a{:href=> "#{project[:gitlink]}", :target=>"_blank"}
+                %i.fa.fa-github
+                GitHub Link
