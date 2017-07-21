@@ -12,7 +12,7 @@
   image: LIBRARRRYYYY.jpg
 
 - project: FIZzBUZZ
-  description: A functioning FIZZBUZZ game. Atest driven JS project.
+  description: A functioning FIZZBUZZ game. A test driven JS project.
   techniques: TOOLS USED:JavaScript, HTML, CSS, GHpages.
   link: https://caressahh.github.io/fizz_buzz_js/
   gitlink: https://github.com/caressahh/fizz_buzz_js
