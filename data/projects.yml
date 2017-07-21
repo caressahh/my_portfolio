@@ -1,4 +1,5 @@
-- description: An online ordering page, with login, for a small restaurant
+- description: An online, menu, ordering system, with login, for a small restaurant
+  info: Tools used:Sinatra as web framework, Foundation6 as CSS framework; PostgreSQL for database,Warden for user authentication, Cucumber for acceptance tests, RSpec for unit tests.
   gitlink: https://github.com/CraftAcademy/slow_food_sinatra_june2017
   link: https://slowfood-craftacademy-july2017.herokuapp.com/
   image: GLUTTONYYYY.jpg
@@ -19,4 +20,4 @@
 
 - description: Ruby project to simulate an ATM machine
   gitlink: https://github.com/caressahh/atm_challenge
-  image:
+  image: ATM.jpg

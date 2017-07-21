@@ -7,18 +7,33 @@
     %title
       = current_page.data.title || "Middleman"
 
-    %link{:href=>"//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css", :rel=>"stylesheet"}
-    %link{:rel=> "stylesheet", :href=>"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css"}
+    %link{:rel=>"stylesheet", :href=>"//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"}
+    %link{:rel=>"stylesheet", :href=>"https://fonts.googleapis.com/css?family=Righteous"}
+    %link{:rel=>"stylesheet", :href=>"https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"}
+    %link{:rel=>"stylesheet", :href=>"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css"}
     %script{:src=>"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"}
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
   %body
-    %div.container
+    %header
+      = partial 'partials/side-bar'
+    %main
       %h1
         Carissa Edgren
+      %h5
+        Junior Software Developer
+      %p
+        %i.devicon-ruby-plain
+        Ruby |
+        %i.devicon-html5-plain
+        HTML5 |
+        %i.devicon-javascript-plain
+        JavaScript |
+        %i.devicon-css3-plain
+        CSS
       %p Carissa@Edgren.nu
       +46 761 969689
-      = yield
+      .container
+        = yield
       = partial 'partials/footer'
       %script{:type=>"text/javascript", :src=>"https://code.jquery.com/jquery-2.1.1.min.js"}
-      %script{:type=>"text/javascript", :src=>"js/materialize.min.js"}

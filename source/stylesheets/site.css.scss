@@ -1,6 +1,6 @@
 body {
-  background-color: grey;
-  color: white;
+  background-color: #ffffff;
+  color: #000000;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
@@ -10,23 +10,80 @@ body {
 }
 
 a {
-  color: white;
-  font-size: 12px;
+  display: inline;
+  color: #000000;
 
   &:focus,
   &:hover {
     color: pink;
   }
 }
-.project-presentation{
-  height: 25em;
 
-
+footer {
+  text-align: left;
+  font-size: 1em;
 }
 
-.project-image{
-  max-height: 400px;
+header, main {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main {
+    padding-left: 0;
+  }
+}
+
+.project-presentation {
+  position: relative;
+  height: 25em;
+  padding: 0;
+  overflow: hidden;
+
+  -webkit-transition: margin-top 0.5s, border-top 0.5s, opacity 0.5s, -webkit-transform 0.5s ease-out;
+    transition: margin-top 0.5s, border-top 0.5s, opacity 0.5s, transform 0.5s ease-out;
+
+  .project-image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .project-text {
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    opacity: 0;
+  }
+
+  .project-link {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    border-top: none;
+  }
+
+  &:hover {
+    /*padding: 15px;*/
+    .project-image {
+      opacity: 0.2;
+    }
+    .project-text {
+      opacity: 1;
+      margin-top: 60%;
+    }
+    .project-link {
+      opacity: 1;
+      border-top: 1px solid #808080;
+    }
+  }
+}
+
+.presentation-image {
   max-width: 100%;
-
-
 }

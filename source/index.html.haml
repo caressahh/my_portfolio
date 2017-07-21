@@ -1,13 +1,8 @@
-.projects.row
-  - data.projects.each do |project|
-    .col.s12.m6.l4.project-presentation
-
-      - if project[:link]
-        %a{:href=> "#{project[:link]}", :target=>"_blank"}
-          %img.project-image{:src=>"images/#{project[:image]}", :target=>"_blank"}
-      - else
-        %img.project-image{:src=>"images/#{project[:image]}", :target=>"_blank"}
-      %p= project[:description]
-      %a{:href=> "#{project[:gitlink]}", :target=>"_blank"}
-        .fa.fa-github
-        GitHub Link
+.container
+  %img{:src=>"images/carissa.jpg"}
+  %p
+    I have worked as  chef for over 10 years and have decided to
+    to switch careers to become software developer.
+  %p
+    I love both math and design so it is the perfect job for me
+    and I love every second coding in Ruby, JavaScript, HTML and CSS.
