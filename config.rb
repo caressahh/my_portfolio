@@ -34,7 +34,7 @@ page '/*.txt', layout: false
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
-
+proxy "/cv", "/cv.html"
 # proxy(
 #   '/this-page-has-no-template.html',
 #   '/template-file.html',

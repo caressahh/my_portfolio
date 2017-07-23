@@ -1,0 +1,14 @@
+%h1 Carissa Michelle Edgren
+
+.cv
+  - data.cv.each do |cv|
+    %li
+      .cv-text
+        %b
+          = cv[:title]
+        %br
+        = cv[:place]
+        %br
+        = cv[:location]
+        %br
+        = cv[:dates]
