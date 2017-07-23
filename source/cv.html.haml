@@ -12,3 +12,16 @@
         = cv[:location]
         %br
         = cv[:dates]
+
+%h2 Education
+
+.cv
+  - data.education.each do |education|
+    %li
+      .education-text
+        %b
+          = education[:college]
+        %br
+        = education[:study]
+        %br
+        = education[:collegedates]
